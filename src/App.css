@@ -1,38 +1,87 @@
 .App {
   text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.map-container {
+  height: 70vh;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.leaflet-container {
+  height: 100%;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.popup-content img {
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* Location button styles */
+.location-button {
+  width: 34px;
+  height: 34px;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.location-button:hover {
+  background: #f4f4f4;
 }
 
-@keyframes App-logo-spin {
+.location-button.locating {
+  background: #e6e6e6;
+}
+
+/* Font Awesome icon styles */
+.fa-location-arrow {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Rotation animation for when locating */
+.rotating {
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.list-group {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
