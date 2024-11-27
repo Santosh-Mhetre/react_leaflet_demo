@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react_reflect_demo/static/css/main.a05ab46d.css",
-    "main.js": "/react_reflect_demo/static/js/main.2bb7351a.js",
-    "static/js/453.6bf59f5f.chunk.js": "/react_reflect_demo/static/js/453.6bf59f5f.chunk.js",
-    "static/media/veg2.png": "/react_reflect_demo/static/media/veg2.252513b0aec9245447e7.png",
-    "static/media/non-veg2.png": "/react_reflect_demo/static/media/non-veg2.40ec7d0374a82e8b5df3.png",
-    "static/media/non-veg1.png": "/react_reflect_demo/static/media/non-veg1.0fe9163530ef34728efb.png",
-    "static/media/veg1.png": "/react_reflect_demo/static/media/veg1.23e47c2e39f56df7c02f.png",
-    "index.html": "/react_reflect_demo/index.html",
-    "main.a05ab46d.css.map": "/react_reflect_demo/static/css/main.a05ab46d.css.map",
-    "main.2bb7351a.js.map": "/react_reflect_demo/static/js/main.2bb7351a.js.map",
-    "453.6bf59f5f.chunk.js.map": "/react_reflect_demo/static/js/453.6bf59f5f.chunk.js.map"
+    "main.css": "/react_leaflet_demo/static/css/main.a05ab46d.css",
+    "main.js": "/react_leaflet_demo/static/js/main.087a226b.js",
+    "static/js/453.6bf59f5f.chunk.js": "/react_leaflet_demo/static/js/453.6bf59f5f.chunk.js",
+    "static/media/veg2.png": "/react_leaflet_demo/static/media/veg2.252513b0aec9245447e7.png",
+    "static/media/non-veg2.png": "/react_leaflet_demo/static/media/non-veg2.40ec7d0374a82e8b5df3.png",
+    "static/media/non-veg1.png": "/react_leaflet_demo/static/media/non-veg1.0fe9163530ef34728efb.png",
+    "static/media/veg1.png": "/react_leaflet_demo/static/media/veg1.23e47c2e39f56df7c02f.png",
+    "index.html": "/react_leaflet_demo/index.html",
+    "main.a05ab46d.css.map": "/react_leaflet_demo/static/css/main.a05ab46d.css.map",
+    "main.087a226b.js.map": "/react_leaflet_demo/static/js/main.087a226b.js.map",
+    "453.6bf59f5f.chunk.js.map": "/react_leaflet_demo/static/js/453.6bf59f5f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a05ab46d.css",
-    "static/js/main.2bb7351a.js"
+    "static/js/main.087a226b.js"
   ]
 }
